@@ -1,0 +1,27 @@
+.hero {
+    display: inline-flex;
+    align-items: center;
+    align-content: space-between;
+    margin: 50px auto;
+    max-width: 80%;
+}
+
+.content {
+    text-align: left;
+    width: 50%;
+}
+
+.content > h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.image {
+    text-align: right;
+    margin-left: auto;
+}
+
+.image > img {
+    width: 400px;
+}
