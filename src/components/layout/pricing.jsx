@@ -30,7 +30,7 @@ export default function Pricing() {
           </Text>
           <chakra.p
             mb={6}
-            fontSize={["lg", , "xl"]}
+            fontSize={["lg", "xl"]}
             color={useColorModeValue("gray.600", "gray.400")}
           >
             5 minute installation · Try Startup Tier features for 14 days · No
@@ -67,7 +67,7 @@ export default function Pricing() {
           </Flex>
         </Box>
         <Box maxW="7xl" py="20" mx="auto">
-          <SimpleGrid columns={[1, , , 3]} gap={[16, 8]}>
+          <SimpleGrid columns={[1, 3]} gap={[16, 8]}>
             <Box
               rounded={["none", "lg"]}
               shadow={["none", "md"]}
@@ -106,7 +106,7 @@ export default function Pricing() {
                   </chakra.span>
                 </Text>
                 <Link
-                  w={["full", , "auto"]}
+                  w={["full", "auto"]}
                   display="inline-flex"
                   alignItems="center"
                   justifyContent="center"
@@ -116,7 +116,7 @@ export default function Pricing() {
                   fontWeight="bold"
                   rounded="md"
                   shadow="md"
-                  color={useColorModeValue("white")}
+                  color={useColorModeValue("dark")}
                   bg={useColorModeValue("brand.600", "brand.500")}
                   _hover={{
                     bg: useColorModeValue("brand.700", "brand.600"),
@@ -177,7 +177,7 @@ export default function Pricing() {
                   </chakra.span>
                 </Text>
                 <Link
-                  w={["full", , "auto"]}
+                  w={["full", "auto"]}
                   display="inline-flex"
                   alignItems="center"
                   justifyContent="center"
@@ -253,7 +253,7 @@ export default function Pricing() {
                   </chakra.span>
                 </Text>
                 <Link
-                  w={["full", , "auto"]}
+                  w={["full", "auto"]}
                   display="inline-flex"
                   alignItems="center"
                   justifyContent="center"

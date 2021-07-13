@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Button } from "@chakra-ui/react"
+import { Button, Link } from "@chakra-ui/react"
 import styles from "./navbar.module.css";
 
 export default class Navbar extends Component {
@@ -14,6 +14,11 @@ export default class Navbar extends Component {
                         </div>
 
                         <div className={styles["right-content"]}>
+                            <Link mr={6} href="https://blog.nfense.com/">Blog</Link>
+                            <Link mr={6} href="/docs">Documentation</Link>
+                            <Link mr={6} href="/pricing">Pricing</Link>
+                            <Link mr={6} href="/products">Products</Link>
+                            <Link mr={6} href="/opensource">Open Source</Link>
                             <Button href="https://dash.nfense.com/" colorScheme="purple" bg="purple.400" color="whiteAlpha.900">Dashboard</Button>
                         </div>
                     </div>
